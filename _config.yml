@@ -1,1 +1,5 @@
 theme: jekyll-theme-architect
+url: http://numbmartin.github.io/
+baseurl: /jk-assignment/
+title: Test Jeckell Site
+description: my first jekyll site 
