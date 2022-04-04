@@ -5,3 +5,5 @@ introducing another languange that writes websites
 
 **i am bold**
 **_bold and italic_**
+
+[Google](http://google.com)
