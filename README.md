@@ -7,3 +7,4 @@ introducing another languange that writes websites
 **_bold and italic_**
 
 [Google](http://google.com)
+![dog play with a ball](images/do.jpg)
