@@ -1,5 +1,5 @@
 ---
-layput: default
+layout: default
 title: Contact
 description: You can find me here
 
