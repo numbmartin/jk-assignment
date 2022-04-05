@@ -1,7 +1,7 @@
 ---
 layput: default
 title: Contact
-description: You can find my here
+description: You can find me here
 
 
 ---
