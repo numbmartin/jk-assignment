@@ -1,3 +1,11 @@
+---
+layout: default
+title: Welcome
+description: This is the home page
+
+--- 
+
+
 ## Welcome to GitHub Pages
 
 Display Site Title {{site.title}}
