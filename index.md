@@ -8,7 +8,7 @@ description: This is the home page
 
 ## Welcome to GitHub Pages
 
-{%include nav.html%}
+{% include nav.html %}
 
 Display Site Title {{site.title}}
 
