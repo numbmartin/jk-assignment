@@ -8,6 +8,8 @@ description: This is the home page
 
 ## Welcome to GitHub Pages
 
+{%include nav.html%}
+
 Display Site Title {{site.title}}
 
 You can use the [editor on GitHub](https://github.com/numbmartin/jk-assignment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
