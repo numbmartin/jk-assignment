@@ -11,7 +11,8 @@
 <ul>
       {% assign sorted_pages = site.html_pages | sort:"order" % }
       {% for page in sorted_pages%}
-      <li class="btn"><a href="{{site.baseur}}{{page url}}"> {{page}}</a></li>
+      <li class="btn"><a href="{{site.baseur}}{{page url}}"> {{page.title}}</a></li>
+      {% endfor %}
       
 
 </ul>
