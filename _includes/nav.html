@@ -1,17 +1,17 @@
-<nav>
+<!-- <nav>
     <ul>
         <li class="btn"><a href="index"> Index</a></li>
         <li class="btn"><a href="about"> About</a></li>
         <li class="btn"><a href="contact"> Contact</a></li>
     </ul>
-    
+     -->
 </nav>
 
 
 <ul>
       {% assign sorted_pages = site.html_pages | sort:"order" % }
       {% for page in sorted_pages%}
-      <li class="btn"><a href="{{site.baseur}}{{page url}}"> {{page.title}}</a></li>
+      <li class="btn"><a href="{{site.baseurl}}{{page url}}"> {{page.title}}</a></li>
       {% endfor %}
       
 
