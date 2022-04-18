@@ -32,8 +32,10 @@
         {% endif %}
       </div>
     </header>
-
+<!-- create a loop -->
     <div id="content-wrapper">
+
+      {% for block in site.data.news.story %}
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
@@ -52,6 +54,9 @@
             </div>
           </div>
         </section>
+        {% endfor %}
+
+        <!-- end of loop -->
 
         <aside id="sidebar">
           {% if site.show_downloads %}
