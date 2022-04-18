@@ -1,5 +1,5 @@
 story: 
-- image:http://picsum.photos/200/200
+- image:"http://picsum.photos/200/200"
   image-alt: placeholder 1
   title: first story title
   subtitle: first story subtitle
@@ -7,7 +7,7 @@ story:
   tag-link: "http:google.com"
   tag: let's go google
 
-  - image:http://picsum.photos/200/200
+  - image:"http://picsum.photos/200/200"
   image-alt: placeholder 2
   title: second story title
   subtitle: second story subtitle
@@ -15,7 +15,7 @@ story:
   tag-link: "http:google.com"
   tag: let's go google
 
-  - image:http://picsum.photos/200/200
+  - image:"http://picsum.photos/200/200"
   image-alt: placeholder 3
   title: third story title
   subtitle: third story subtitle
