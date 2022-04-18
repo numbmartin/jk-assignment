@@ -43,13 +43,13 @@
           <div class="cards">
             <div class="card">
               <div class="pic">
-                <img src="http://picsum.photos/200/200" alt="">
+                <img src="{{block.image}}" alt="{{block.image-alt}}">
               </div>
               <div class="content">
-                <h3 class="title">this is the title</h3>
-                <h4>subtitle</h4>
-                <p>this is the content</p>
-                <p><a href="http://">this is a link</a></p>
+                <h3 class="title">{{block.title}}</h3>
+                <h4>{{block.subtitle}}</h4>
+                <p>{{block.story-content}}</p>
+                <p><a href="{{block.tag-link}}">{{block.tag}}</a></p>
               </div>
             </div>
           </div>
