@@ -35,11 +35,12 @@
 <!-- create a loop -->
     <div id="content-wrapper">
 
-      {% for block in site.data.news.story %}
+      
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
 
+          {% for block in site.data.news.story %}
           <div class="cards">
             <div class="card">
               <div class="pic">
@@ -54,6 +55,7 @@
             </div>
           </div>
           {% endfor %}
+
         </section>
         
 
